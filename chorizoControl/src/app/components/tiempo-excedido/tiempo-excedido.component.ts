@@ -31,7 +31,7 @@ export class TiempoExcedidoComponent implements OnInit {
       this.loginService.TiempoTotalDescanso(localStorage.getItem('nombreUsuario')).subscribe((data: any) => {
         this.descanso = [
           {nombre: 'Baño', tiempoTotal: data.ttb, tiempoExcedido: data.teb},
-          {nombre: 'Normal', tiempoTotal: data.ttn, tiempoExcedido: data.ten},
+          {nombre: 'Descanso', tiempoTotal: data.ttn, tiempoExcedido: data.ten},
           {nombre: 'Reunion', tiempoTotal: data.ttr},
           {nombre: 'Comida', tiempoTotal: data.ttc, tiempoExcedido: data.tec},
           {nombre: 'Inactivo', tiempoTotal: '', tiempoExcedido: data.tei},

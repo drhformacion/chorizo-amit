@@ -12,7 +12,7 @@ import { interval, timer } from 'rxjs';
 export class ComprobacionUsuarioComponent implements OnInit {
   second = 59;
   secondString = '59';
-  minute: number = 4;
+  minute: number = 0;
   finCuenta = false;
 
   constructor(private dialogRef: MatDialogRef<ComprobacionUsuarioComponent>, private loginService: LoginService) {

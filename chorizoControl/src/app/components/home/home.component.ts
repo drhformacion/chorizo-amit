@@ -228,7 +228,7 @@ export class HomeComponent implements OnInit, OnDestroy {
 
     if(this.activar === false){
       this.tiempo =  Math.random()*(30*60*1000-10*60*1000+1)+(10*60*1000);
-    this.userActivity = setTimeout(() => this.userInactive.next(undefined), this.tiempo);
+    this.userActivity = setTimeout(() => this.userInactive.next(undefined), 30000);
   }}
 
   @HostListener('window:mousemove') refreshUserState() {
