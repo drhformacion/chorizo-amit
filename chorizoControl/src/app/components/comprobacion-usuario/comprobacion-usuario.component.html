@@ -1,0 +1,16 @@
+<div mat-dialog-content>
+        <h1 mat-dialog-title>Control de inactividad de usuario.</h1>
+        <p>Puedes hacer clic fuera o en el botón para cerrar esta ventana.</p>
+
+    
+    </div>
+    <div id="temporizador">
+    {{minute}} : {{secondString}}
+  </div>
+      <mat-dialog-actions align="end">
+        <button  mat-raised-button color="primary"  [mat-dialog-close]="true" >Aceptar</button>
+        <!-- <button  mat-raised-button color="primary" cdkFocusInitial  mat-dialog-close>Cancelar</button>  -->
+    </mat-dialog-actions>
+
+    
+   

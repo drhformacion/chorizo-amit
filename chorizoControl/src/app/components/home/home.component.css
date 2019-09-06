@@ -1,0 +1,19 @@
+.descanso.baño:hover{
+    background-color: lightblue !important;
+}
+.descanso.reunion:hover{
+    background-color: burlywood !important;
+}
+.descanso.normal:hover{
+    background-color: gainsboro !important;
+}
+.descanso.excedido:hover{
+    background-color: lightcoral !important;
+}
+.descanso.comida:hover{
+    background-color: cadetblue !important;
+} 
+.descanso{
+    transition: all 0.75s ease-out;
+    cursor: pointer;
+}

@@ -1,0 +1,76 @@
+<mat-toolbar>
+    <div style="height: 100%; width: 100%">
+
+        <div style="text-align: right; margin-top: 10px">
+            <button (click)="cerrarSesion()"style="height: 100%" mat-raised-button color="warn">Cerrar sesión</button>
+        </div>
+        <!-- <div style="text-align: center">
+            <h1>Bienvenido {{nombre}} </h1>
+        </div> -->
+    </div>
+</mat-toolbar>
+<div class="descanso baño" id="banio" (click)="descansoBanio()" style="  margin: auto;
+
+      margin-top: 10px;
+      width: 40%;
+      border: 3px solid lightblue;
+      padding: 10px">
+
+    <div>
+        <h3 style="float: right">Descanso para ir al baño</h3>
+        <i class="fas fa-toilet fa-5x"></i>
+    </div>
+</div>
+
+<div id="reunion" (click)="descansoReunion()" class="descanso reunion" style="  margin: auto;
+    margin-top: 10px;
+      width: 40%;
+      border: 3px solid burlywood;
+      padding: 10px">
+
+    <div>
+        <h3 style="float: right">Estoy en una reunión</h3>
+        <i class="fas fa-building fa-5x"></i>
+    </div>
+</div>
+
+<div id="normal" (click)="descansoNormal()" class="descanso normal" style="  margin: auto;
+    margin-top: 10px;
+      width: 40%;
+      border: 3px solid gainsboro;
+      padding: 10px">
+
+    <div>
+        <h3 style="float: right">Estoy descansando</h3>
+        <i class="fas fa-couch fa-5x"></i>
+    </div>
+</div>
+
+<div id="comida" (click)="descansoComida()" class="descanso comida" style="  margin: auto;
+    margin-top: 10px;
+      width: 40%;
+      border: 3px solid cadetblue;
+      padding: 10px">
+
+    <div>
+        <div style="float: right">
+            <h3>Descanso para comer</h3>
+        </div>
+        <i class="fas fa-hamburger fa-5x"></i>
+    </div>
+</div>
+
+<div id="excedido" (click)="openDialogTiempoExcedido()" class="descanso excedido" style="  margin: auto;
+    margin-top: 10px;
+      width: 40%;
+      border: 3px solid lightcoral;
+      padding: 10px">
+
+    <div>
+        <div style="float: right">
+            <h3>Tiempo excedido</h3>
+            <p>hola</p>
+        </div>
+        <i class="fas fa-clock fa-5x"></i>
+    </div>
+</div>
