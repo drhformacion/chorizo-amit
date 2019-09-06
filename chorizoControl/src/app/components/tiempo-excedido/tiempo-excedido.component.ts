@@ -34,6 +34,7 @@ export class TiempoExcedidoComponent implements OnInit {
           {nombre: 'Normal', tiempoTotal: data.ttn, tiempoExcedido: data.ten},
           {nombre: 'Reunion', tiempoTotal: data.ttr},
           {nombre: 'Comida', tiempoTotal: data.ttc, tiempoExcedido: data.tec},
+          {nombre: 'Inactivo', tiempoTotal: '', tiempoExcedido: data.tei},
         ];
         console.log(this.descanso)
       });
